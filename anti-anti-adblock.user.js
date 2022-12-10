@@ -5,7 +5,7 @@
 // @grant          unsafeWindow
 // @match          *://*/*
 // @run-at         document-end
-// @version        1.0.2
+// @version        1.0.3
 // ==/UserScript==
 
 unsafeWindow.hasAdBlocker =
