@@ -7,4 +7,10 @@
 // @runat          document-idle
 // ==/UserScript==
 
-unsafeWindow.googleAd = unsafeWindow.zfgloadedpopup = true;
+unsafeWindow.hasAdBlocker =
+unsafeWindow.abp = false;
+
+unsafeWindow.googleAd =
+unsafeWindow.isLoadAds =
+unsafeWindow.generatorAds =
+unsafeWindow.zfgloadedpopup = true;
