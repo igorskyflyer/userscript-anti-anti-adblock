@@ -4,7 +4,8 @@
 // @description    Counters anti-AdBlock scripts
 // @grant          unsafeWindow
 // @include        *
-// @runat          document-idle
+// @run-at         document-idle
+// @version        1.0.0
 // ==/UserScript==
 
 unsafeWindow.hasAdBlocker =
