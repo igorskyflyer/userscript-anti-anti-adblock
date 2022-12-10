@@ -3,7 +3,7 @@
 // @namespace      https://github.com/igorskyflyer
 // @description    Counters anti-AdBlock scripts
 // @grant          unsafeWindow
-// @include        *
+// @match          *
 // @run-at         document-idle
 // @version        1.0.0
 // ==/UserScript==
