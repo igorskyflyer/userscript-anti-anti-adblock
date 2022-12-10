@@ -4,7 +4,7 @@
 // @description    Counters anti-AdBlock scripts
 // @grant          unsafeWindow
 // @match          *://*/*
-// @run-at         document-idle
+// @run-at         document-end
 // @version        1.0.2
 // ==/UserScript==
 
