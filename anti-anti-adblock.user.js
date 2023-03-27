@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           Anti anti-AdBlock
 // @namespace      https://github.com/igorskyflyer
-// @version        1.0.11
+// @version        1.0.12
 // @author         Igor Dimitrijević (@igorskyflyer)
 // @description    Counters anti-AdBlock scripts
 // @homepage       https://github.com/igorskyflyer/userscript-anti-anti-adblock
@@ -16,7 +16,7 @@
 // @run-at         document-end
 // ==/UserScript==
 
-unsafeWindow.dotcom = { flags: {}, userinfo: {} }
+unsafeWindow.dotcom = { flags: { adverts: true, analytics: true,  }, userinfo: { ads: true }, initAnalytics: function() {} }
 unsafeWindow.zaraz = { track: function() {} }
 unsafeWindow.zarazData = {}
 
@@ -26,15 +26,11 @@ unsafeWindow.abp = false;
 unsafeWindow.googleAd =
 unsafeWindow.isLoadAds =
 unsafeWindow.generatorAds =
-unsafeWindow.zfgloadedpopup =
-unsafeWindow.dotcom.flags.adverts =
-unsafeWindow.dotcom.flags.analytics =
-unsafeWindow.dotcom.userinfo.ads = true;
+unsafeWindow.zfgloadedpopup = true;
 
 unsafeWindow.GeneratorAds =
 unsafeWindow.Ads_PushPage =
 unsafeWindow.Ads_Popunder =
 unsafeWindow.Ads_Vignette =
 unsafeWindow.postAntiadblockInfo =
-unsafeWindow.dotcom.initAnalytics =
 unsafeWindow.AdsPlugin = function() {}
