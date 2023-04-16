@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           Anti anti-AdBlock
 // @namespace      https://github.com/igorskyflyer
-// @version        1.0.13
+// @version        1.0.14
 // @author         Igor Dimitrijević (@igorskyflyer)
 // @description    Counters anti-AdBlock scripts
 // @homepage       https://github.com/igorskyflyer/userscript-anti-anti-adblock
@@ -28,6 +28,8 @@ unsafeWindow.googleAd =
 unsafeWindow.isLoadAds =
 unsafeWindow.generatorAds =
 unsafeWindow.zfgloadedpopup = true;
+
+unsafeWindow.google_ad_status = 1;
 
 unsafeWindow.GeneratorAds =
 unsafeWindow.Ads_PushPage =
