@@ -1,7 +1,1 @@
-*       text=auto
-
-*       linguist-detectable
-
-*.json  -linguist-detectable
-*.md    -linguist-detectable
-*.svg   -linguist-detectable
+* text=auto
