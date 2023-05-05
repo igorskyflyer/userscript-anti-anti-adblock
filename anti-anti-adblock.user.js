@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           Anti anti-AdBlock
 // @namespace      https://github.com/igorskyflyer
-// @version        1.0.17
+// @version        1.0.18
 // @author         Igor Dimitrijević (@igorskyflyer)
 // @description    Counters anti-AdBlock scripts
 // @homepage       https://github.com/igorskyflyer/userscript-anti-anti-adblock
@@ -20,6 +20,7 @@ unsafeWindow.zaraz = { track: function() {} }
 unsafeWindow.demandSupply = { pfAds: true, setPfAds: function() {} }
 unsafeWindow.zarazData = {}
 unsafeWindow.AdTrack = { init: function() {} }
+unsafeWindow.MDCore = { adblock: 0 }
 
 unsafeWindow.hasAdBlocker =
 unsafeWindow.abp = false;
