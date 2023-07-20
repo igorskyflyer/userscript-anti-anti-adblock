@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           Anti anti-AdBlock
 // @namespace      https://github.com/igorskyflyer
-// @version        1.0.20
+// @version        1.0.21
 // @author         Igor Dimitrijević (@igorskyflyer)
 // @description    Counters anti-AdBlock scripts
 // @homepage       https://github.com/igorskyflyer/userscript-anti-anti-adblock
@@ -15,25 +15,28 @@
 // @run-at         document-end
 // ==/UserScript==
 
-unsafeWindow.dotcom = { flags: { adverts: true, analytics: true,  }, userinfo: { ads: true }, initAnalytics: function() {} }
-unsafeWindow.zaraz = { track: function() {} }
-unsafeWindow.demandSupply = { pfAds: true, setPfAds: function() {} }
+unsafeWindow.dotcom = {
+  flags: { adverts: true, analytics: true },
+  userinfo: { ads: true },
+  initAnalytics: function () {},
+}
+unsafeWindow.zaraz = { track: function () {} }
+unsafeWindow.demandSupply = { pfAds: true, setPfAds: function () {} }
 unsafeWindow.zarazData = {}
-unsafeWindow.AdTrack =
-  unsafeWindow._carbonads = { init: function() {} }
+unsafeWindow.AdTrack = unsafeWindow._carbonads = { init: function () {} }
 unsafeWindow.MDCore = { adblock: 0 }
 
-unsafeWindow.hasAdBlocker =
-unsafeWindow.abp = false;
+unsafeWindow.hasAdBlocker = unsafeWindow.abp = false
 
 unsafeWindow.googleAd =
-unsafeWindow.isLoadAds =
-unsafeWindow.generatorAds =
-unsafeWindow.zfgloadedpopup =
-unsafeWindow.canRunAds =
-unsafeWindow.canRunAdvertise = true;
+  unsafeWindow.isLoadAds =
+  unsafeWindow.generatorAds =
+  unsafeWindow.zfgloadedpopup =
+  unsafeWindow.canRunAds =
+  unsafeWindow.canRunAdvertise =
+    true
 
-unsafeWindow.google_ad_status = 1;
+unsafeWindow.google_ad_status = 1
 
 unsafeWindow.GeneratorAds =
   unsafeWindow.Ads_PushPage =
@@ -41,4 +44,5 @@ unsafeWindow.GeneratorAds =
   unsafeWindow.Ads_Vignette =
   unsafeWindow.postAntiadblockInfo =
   unsafeWindow.AdsPlugin =
-  unsafeWindow.AdscoreInit = function() {}
+  unsafeWindow.AdscoreInit =
+    function () {}
