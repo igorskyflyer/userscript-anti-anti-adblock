@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           Anti anti-AdBlock
 // @namespace      https://github.com/igorskyflyer
-// @version        1.0.30
+// @version        1.0.31
 // @author         Igor Dimitrijević (@igorskyflyer)
 // @description    Counters anti-AdBlock scripts
 // @homepage       https://github.com/igorskyflyer/userscript-anti-anti-adblock
@@ -31,7 +31,7 @@ unsafeWindow.__ez = {}
 unsafeWindow._pb = { libLoaded: true }
 unsafeWindow.__cfRLUnblockHandlers = {}
 
-unsafeWindow.hasAdBlocker = unsafeWindow.abp = unsafeWindow.adBlockerReady = false
+unsafeWindow.hasAdBlocker = unsafeWindow.abp = unsafeWindow.adBlockerReady = unsafeWindow.isBlocked = false
 
 unsafeWindow.googleAd =
   unsafeWindow.isLoadAds =
