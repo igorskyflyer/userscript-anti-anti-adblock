@@ -1,0 +1,10 @@
+{
+	"name": "anti-anti-adblock",
+	"version": "1.0.34",
+	"description": "🎭 A UserScript/scriptlet that counters the anti-AdBlock scripts. 🥊",
+	"author": "Igor Dimitrijević <igor.dvlpr@gmail.com> (https://github.com/igorskyflyer)",
+	"license": "MIT",
+	"devDependencies": {
+		"@biomejs/biome": "1.4.1"
+	}
+}
